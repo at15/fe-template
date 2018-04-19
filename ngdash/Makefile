@@ -10,4 +10,4 @@ new-ngzorro:
 
 .PHONY: patch-ngzorro
 patch-ngzorro:
-	cp -r zorro-patch zorro
+	cp -r zorro-patch/* zorro

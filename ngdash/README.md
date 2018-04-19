@@ -3,8 +3,9 @@
 ## Dev
 
 ````bash
-# call ng new <project> to use latest @angular/cli and create dependencies
-make new
+# call ng new empty to use latest @angular/cli to create app called empty
+make new-empty
+make new-ngzorro
 ````
 
 The app name is used in following places

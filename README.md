@@ -4,6 +4,10 @@ Base template for dashboard, documentation etc.
 
 ## Usage
 
+- [dashboard](ngdash) Angular + And Design (NG-ZORRO)
+- [documentation](vuepress) VuePress
+
+
 ## Dev
 
 ````bash

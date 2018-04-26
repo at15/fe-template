@@ -18,3 +18,17 @@ patch-0-original:
 sync-0-original:
 	cp -r 0-original-patch/README.md 0-original
 	cp -r 0-original-patch/.vuepress/* 0-original/.vuepress
+
+.PHONY: new-1-awesome
+new-1-awesome:
+	cp -r 0-original 1-awesome
+
+.PHONY: rm-1-awesome
+rm-1-awesome:
+	rm -rf 1-awesome
+
+.PHONY: patch-1-awesome
+patch-1-awesome:
+	cp -r 1-awesome-patch/.vuepress/* 1-awesome/.vuepress
+	cp -r 1-awesome-patch/README.md 1-awesome
+	

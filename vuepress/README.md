@@ -18,6 +18,8 @@ npm run docs:dev
 
 ### 0-Original
 
+Just a README.md with default theme
+
 - https://vuepress.vuejs.org/guide/getting-started.html
 - `npm install --save-dev vuepress`
 - add scripts to package.json
@@ -37,6 +39,13 @@ npm run docs:dev
   - `make rm-0-original`
   - `make new-0-original`
   - `make patch-0-original`
+
+### 1-awesome
+
+A table component for awesome list, allow filtering by multiple conditions
+
+- https://vuepress.vuejs.org/guide/using-vue.html#using-components
+- https://github.com/vuejs/vuepress/tree/master/docs/.vuepress/components
 
 ## Notes
 

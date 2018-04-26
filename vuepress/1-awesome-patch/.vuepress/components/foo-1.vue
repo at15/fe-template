@@ -4,6 +4,14 @@
       I am {{ foo }}
   </p>
   awesome databases
+  <div>
+      <label>lang</label>
+      <select v-model="lang">
+          <option value="all">all</option>
+          <option value="java">java</option>
+          <option value="go">go</option>
+      </select>
+  </div>
   <table>
       <thead>
           <tr>
@@ -13,7 +21,7 @@
           </tr>
       </thead>
       <tbody>
-          <tr v-for="db in databases">
+          <tr v-for="db in filtered">
             <td>{{ db.name }}</td>
             <td>{{ db.lang }}</td>
             <td>{{ db.backend }}</td>
@@ -29,10 +37,30 @@ import { databases } from "../../data/databases";
 export default {
   data() {
     console.log(databases);
+    // TODO: get lang and backend from router query parameters
+    let lang = "all";
+    let backend = "all";
+
     return {
       foo: "This is foo",
-      databases: databases
+      databases: databases,
+      lang: lang,
+      backend: backend
     };
+  },
+  computed: {
+    filtered: function() {
+      const lang = this.lang;
+      const databases = this.databases;
+
+      let t = [];
+      for (let i = 0; i < databases.length; i++) {
+        if (lang === "all" || databases[i].lang === lang) {
+          t.push(databases[i]);
+        }
+      }
+      return t;
+    }
   }
 };
 </script>

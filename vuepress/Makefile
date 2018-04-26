@@ -22,6 +22,7 @@ sync-0-original:
 .PHONY: new-1-awesome
 new-1-awesome:
 	cp -r 0-original 1-awesome
+	cd 1-awesome && mkdir data
 
 .PHONY: rm-1-awesome
 rm-1-awesome:
@@ -31,4 +32,4 @@ rm-1-awesome:
 patch-1-awesome:
 	cp -r 1-awesome-patch/.vuepress/* 1-awesome/.vuepress
 	cp -r 1-awesome-patch/README.md 1-awesome
-	
+	cp -r 1-awesome-patch/data/* 1-awesome/data

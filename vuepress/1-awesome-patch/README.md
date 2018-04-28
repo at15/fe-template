@@ -13,6 +13,10 @@ features:
 footer: MIT Licensed
 ---
 
+Table of content
+
+[[toc]]
+
 # H1
 
 H1
@@ -22,3 +26,5 @@ H1
 ## Foo
 
 <table-1/>
+
+### Foo-bar

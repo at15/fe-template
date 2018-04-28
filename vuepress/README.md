@@ -44,6 +44,7 @@ Just a README.md with default theme
 
 A table component for awesome list, allow filtering by multiple conditions
 
+- `npm install --save-dev sql.js`
 - https://vuepress.vuejs.org/guide/using-vue.html#using-components
 - https://github.com/vuejs/vuepress/tree/master/docs/.vuepress/components
 - `.vuepress/components` contains vue component, it can import js file in other folder using webpack

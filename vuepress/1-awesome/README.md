@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /awesome.png
-actionText: Get Started
-actionLink: /guide/
+actionText: 404
+actionLink: /notexists/
 features:
 - title: Foo
   details: Foo details 
@@ -17,6 +17,8 @@ footer: MIT Licensed
 
 H1
 
+[sql](sql.md)
+
 ## Foo
 
-<foo-1/>
+<table-1/>

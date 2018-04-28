@@ -31,5 +31,5 @@ rm-1-awesome:
 .PHONY: patch-1-awesome
 patch-1-awesome:
 	cp -r 1-awesome-patch/.vuepress/* 1-awesome/.vuepress
-	cp -r 1-awesome-patch/README.md 1-awesome
+	cp -r 1-awesome-patch/*.md 1-awesome
 	cp -r 1-awesome-patch/data/* 1-awesome/data

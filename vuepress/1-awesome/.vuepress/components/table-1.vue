@@ -36,7 +36,7 @@ import { databases } from "../../data/databases";
 
 export default {
   data() {
-    console.log(databases);
+    console.log('table-1.vue', databases);
     // TODO: get lang and backend from router query parameters
     let lang = "all";
     let backend = "all";

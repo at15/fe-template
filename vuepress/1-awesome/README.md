@@ -17,14 +17,30 @@ Table of content
 
 [[toc]]
 
-# H1
+# Usage
 
-H1
+````bash
+# dev server listen on localhost:8080
+npm run docs:dev
+# use eslint
+npm run lint
+````
 
-[sql](sql.md)
+## Components
 
-## Foo
+TODO: full example in dedicated pages to explain how the code works
+
+- [table](table.md)
+- [sql](sql.md)
+
+### Foo
+
+<foo-1/>
+
+### Table
 
 <table-1/>
 
-### Foo-bar
+### SQL
+
+<sql-1/>

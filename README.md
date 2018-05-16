@@ -1,8 +1,9 @@
 # fe-template
 
-Base template for dashboard, documentation etc.
+Base frontend templates for dashboard and documentation.
 
-## Usage
+- [dashboard](ngdash) Angular + And Design (NG-ZORRO)
+- [documentation](vuepress) VuePress
 
 ## Dev
 
@@ -10,6 +11,12 @@ Base template for dashboard, documentation etc.
 npm install -g vuepress
 npm install -g @angular/cli
 ````
+
+The templates are built from layers
+
+- layer 0 is generated from official cli
+- layer n is built from layer n-1
+- layer na and layer nb are both from layer n-1
 
 ## Known issues
 
